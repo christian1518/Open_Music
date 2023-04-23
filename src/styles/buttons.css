@@ -1,0 +1,50 @@
+.button__filter {
+    width: 3.625rem;
+    height: 2rem;
+    font-weight: 500;
+    font-size: var(--font-3);
+    border-radius: var(--radius-1);
+    background-color: var(--background-color-button-filter);
+    color: var(--text-color-button-filter);
+    cursor: pointer;
+}
+
+.button__filter:hover {
+    background-color: var(--background-hover-button-filter);
+}
+
+.button__filter:focus {
+    background-color: var(--background-button-filter-focus);
+    color: var(--color-button-filter-focus);
+    border: 2px solid var(--border-button-filter-focus);
+}
+
+.button__buy {
+    width: 4.688rem;
+    border-radius: var(--radius-1);
+    height: 2rem;
+    background-color: var(--background-color-button-to-buy);
+    color: var(--color-text-button-to-buy);
+    cursor: pointer;
+}
+
+.button__buy:hover {
+    background-color: var(--background-hover-button-to-buy);
+    transition: 1s;
+}
+
+.button__theme {
+    background-color: var(--background-button-theme);
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: var(--radius-1);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button__theme:hover {
+    border: 1px solid var(--color-grey-8);
+}
+

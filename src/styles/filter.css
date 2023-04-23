@@ -1,0 +1,51 @@
+/* Filter for buttons */
+.section__category {
+    width: 100%;
+}
+
+.category__text {
+    color: var(--text-musical-gener);
+}
+
+.filter-category__list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    gap: 1.93rem;
+}
+
+.category__text {
+    margin-bottom: var(--font-2);
+    font-weight: 600;
+    font-size: var(--font-2);
+}
+
+
+/* Filter for price */
+.section__filter-price {
+    margin-top: 3.75rem;
+}
+
+.box__filter-for-price {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.to-define__price-text, .max__price {
+    font-weight: 600;
+    font-size: var(--font-2);
+    color: var(--text-to-define-price);
+}
+
+.max__price {
+    color: var(--max-value);
+    font-weight: 500;
+    font-size: var(--font-2);
+}
+
+input {
+    width: 100%;
+    cursor: pointer;
+}

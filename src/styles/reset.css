@@ -1,0 +1,25 @@
+html,
+body,
+nav, 
+header,
+p,
+button, 
+form, 
+input, 
+h3, 
+div, 
+main, 
+h1, 
+span, 
+h2, 
+section,
+ul,
+li,
+footer {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    line-height: 150%;
+} 

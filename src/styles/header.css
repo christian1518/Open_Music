@@ -1,0 +1,15 @@
+header {
+    height: 2.313rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: var(--container);
+    margin: auto;
+    margin-top: 4.813rem;
+    padding: 1rem;
+    margin-bottom: 4.438rem;
+}
+
+.header__logo {
+    color: var(--color-logo);
+}

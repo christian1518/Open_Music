@@ -1,0 +1,64 @@
+.Albums__text {
+    margin-top: 3.75rem;
+    margin-bottom: 3.75rem;
+    font-weight: 600;
+    font-size: var(--font-2);
+    color: var(--text-albums);
+}
+
+.cards__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    
+}
+
+.list__card {
+    width: 19.25rem;
+    list-style: none;
+    height: 16.188rem;
+    border-radius: 8px;
+    background-color: var(--background-color-cards);
+}
+
+.image__card {
+    width: 19.25rem;
+    height: 7.063rem;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.div__description {
+    padding: 1rem;
+}
+
+.description__band-and-year {
+    display: flex;
+    gap: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.band__name, .year__release {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--color-band-name-and-year);
+}
+
+.music__name {
+    font-size: var(--font-2);
+    color: var(--color-music-name);
+}
+
+.div__price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.price__products {
+    color: var(--color-price-card);
+    font-weight: 600;
+    font-size: var(--font-3);
+}
