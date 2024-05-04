@@ -1,16 +1,11 @@
-/* Desenvolva sua lógica aqui ... */
 import { categories, products } from "./productsData.js";
 import { renderButtons, createButtons, renderCards, createCard } from "./render.js";
 import { renderTheme } from "./theme.js";
-
-
-
 
 const renderPreferences = () => {
     const lastFilter = localStorage.getItem("LastFilterClicked")
     console.log(lastFilter)
 }
-
 
 function handleFilterCards(array) {
     const buttonFilter = document.querySelectorAll(".list-category__item")
@@ -19,15 +14,6 @@ function handleFilterCards(array) {
     buttonFilter.forEach((button) => {
         button.addEventListener("click", (event) => {
             const element = event.target
-
-            // Testando
-            // button.forEach(activeButton => {
-            //     if(activeButton.classList.contains("button__selected")) {
-            //         activeButton.classList.remove("button__selected")
-            //     }
-            // })
-            // element.classList.add('button__filter')
-            // testando até aqui
 
             localStorage.setItem("LastFilterClicked", element.innerText)
             
@@ -47,7 +33,6 @@ function handleFilterCards(array) {
     })
 }
 
-
 function handleFilterPrice(array) {
     const inputRange = document.getElementById("input__range")
     const span = document.querySelector(".max__price")
@@ -60,28 +45,9 @@ function handleFilterPrice(array) {
         const productsFilter = array.filter((element) => {
             return element.price <= maxPrice
         })
-
         renderCards(productsFilter)
     })
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 renderPreferences()
 renderTheme()

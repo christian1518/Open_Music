@@ -1,11 +1,9 @@
-/* Desenvolva sua lógica aqui ... */
 export const renderTheme = () => {
     const darkButton = document.querySelector(".button__theme")
 
     const html = document.querySelector("html")
 
     const modePreference = JSON.parse(localStorage.getItem("dark__mode"))
-
 
     if(modePreference) {
         darkButton.innerHTML = '<img src="src/assets/img/sun.jpg"/>'
@@ -14,7 +12,6 @@ export const renderTheme = () => {
         darkButton.innerHTML = '<img src="src/assets/img/moon.jpg"/>'
         html.classList.remove("dark__mode")
     }
-
     
     darkButton.addEventListener("click", () => {
         html.classList.toggle("dark__mode")

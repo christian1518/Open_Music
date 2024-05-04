@@ -1,4 +1,3 @@
-/* Filter for buttons */
 .section__category {
     width: 100%;
 }
@@ -21,8 +20,6 @@
     font-size: var(--font-2);
 }
 
-
-/* Filter for price */
 .section__filter-price {
     margin-top: 3.75rem;
 }
